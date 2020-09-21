@@ -32,3 +32,22 @@ h2 {
   padding: 30px;
   border-radius: 20px;
 }
+/* alert alert-danger error*/
+.alert {
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+}
+.alert-danger {
+  color: #801823;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.error {
+  text-align: center;
+}
+.alert p {
+  margin-bottom: 0!important;
+}
