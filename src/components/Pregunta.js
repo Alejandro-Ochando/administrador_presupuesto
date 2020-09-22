@@ -26,6 +26,7 @@ const Pregunta = ({ guardarPresupuesto, guardarRestante }) => {
 
         //Si hay error en la validacion
         guardarError(false);
+        
         //Pasar la cantidad a los State de APP
         guardarPresupuesto(cantidad);
         guardarRestante(cantidad);
