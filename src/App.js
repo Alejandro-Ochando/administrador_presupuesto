@@ -18,7 +18,7 @@ function App() {
           <h1>Gasto Semanal</h1>
 
           <div className="contenido-principal contenido">
-            //Condicion para que oculte
+            /*Condicion para que oculte*/
             { mostrarPregunta ? 
             (
               <Pregunta
