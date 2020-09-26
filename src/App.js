@@ -31,19 +31,13 @@ function App() {
       guardarCrearGasto(false);
     
     }
-  }, [gasto]);
-
-  
-
-
+  }, [gasto, crearGasto, gastos, restante]);
 
   return (
     <div className="container">
       <header>
           <h1>Gasto Semanal</h1>
-
           <div className="contenido-principal contenido">
-            /*Condicion para que oculte*/
             { mostrarPregunta ? 
             (
               <Pregunta
@@ -72,13 +66,8 @@ function App() {
               </div>
             )
             }
-          
-
-          
-
           </div>
       </header>
-
     </div>
   );
 }
